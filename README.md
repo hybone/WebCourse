@@ -1,2 +1,0 @@
-# WebCourse
-coursera test repository
