@@ -3,90 +3,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Celebraties in sports</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        
-
-        h1{
-            text-align: center;
-        }
-
-        p1{
-            position: relative;
-            background-color: bisque;
-            margin: 15px;
-            border: solid 1px black;
-        }
-
-        p1 div{
-            padding-top: 0;
-            padding-bottom: 30px;
-        }
-
-        h2{
-            position: absolute;
-            /*text-align: right;*/
-            top: 0;
-            right: 15px;
-            background-color: brown;
-            margin-top: 0;
-            border: solid 1px black;
-        }
-
-        /*tablet*/
-        @media (max-width : 991px) and (min-width : 768px){
-            .same_line1{
-                width: 50%;
-                float: left;
-            }
-
-            .s3{
-                clear: left;
-                width: 100%;
-            }
-
-        }
-
-        /*desktop*/
-        @media (min-width : 992px){
-            p1{
-                width: 33.3%;
-                float: left;
-            }
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="stylesheet_1.css">
     <h1>Celebraties in sports</h1>
     <!--section 1:basketball-->
-    <p1 class="same_line1">
-        <div><h2>Basketball--Micheal Jordan</h2></div>
+    <section class="sameLine">
+        <h2>Basketball--Micheal Jordan</h2>
         <div>In fields of green and courts of clay,
             Where athletes strive and children play,
             The spirit of the game takes flight,
             In morning sun and fading light.
         </div>
-    </p1>
+    </section>
+    
     
     <!--section 2:Soccer-->
-    <p1 class="same_line1">
-        <div><h2>Soccer-- Robin van Persie</h2></div>
+    <section class="sameLine">
+        <h2>Soccer-- Robin van Persie</h2>
         <div>With every pass and every goal,
             The heart of sports begins to roll,
             A dance of skill, a test of might,
             In every match, a new delight.
         </div>
-    </p1>
+    </section>
 
     <!--section 3:100 meters dash-->
-    <p1 class="s3">
-        <div><h2>100 meters dash-- Usain St Leo Bolt</h2></div>
+    <section id="section3">
+        <h2>100 meters dash-- Usain St Leo Bolt</h2>
         <div>From cricket pitch to basketball,
             In every sport, we give our all,
             The cheers, the tears, the highs, the lows,
             In every game, the passion shows.
         </div>
-    </p1>
+    </section>
 </html>
